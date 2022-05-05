@@ -1,33 +1,36 @@
 git <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todolists-test</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <div class="wrapper">
-       <header> Create Tasks</header> 
-       <div class="input_field">
-           <input type="text" placeholder="enter new task">
-           <button><i class="fa-solid fa-plus"></i></button>    
-       </div>
-       <h4> Today's Tasks</h4>
-       <ul class="todoList">
-           <li>task1<i class="fa-solid fa-trash-can"></i></li>
-           <li>task2<i class="fa-solid fa-trash-can"></i></li>
-           <li>task3<i class="fa-solid fa-trash-can"></i></li>
-           <li>task4<i class="fa-solid fa-trash-can"></i></li>
-       </ul>
-       <footer class="footer">
-           <span>you have <span class="pendingTasks"></span> pending Tasks</span>
-           <button>Clear all</button>
-       </footer>
+      <header>Create Tasks</header>
+      <div class="input_field">
+        <input type="text" placeholder="enter new task" />
+        <button><i class="fa-solid fa-plus"></i></button>
+      </div>
+      <ul class="todoList">
+        <li>
+          task1 <span><i class="fa-solid fa-trash-can"></i></span>
+        </li>
+      </ul>
+      <footer class="footer">
+        <span>you have <span class="pendingTasks"></span> pending Tasks</span>
+        <button>Clear all</button>
+      </footer>
     </div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
